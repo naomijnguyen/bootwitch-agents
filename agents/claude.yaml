@@ -4,10 +4,8 @@ interface:
   default_prompt: "Use the agents skill to start or continue a multi-agent coding session with bounded assignments, architecture traces, append-only shared notes, and verified handoffs."
 
 install:
-  # Claude Code discovers skills by directory. The skill root is AGENTS/ itself,
-  # because AGENTS/SKILL.md carries the `name: agents` frontmatter.
-  method: symlink
-  link: "~/.claude/skills/agents"
-  target: "/Users/jennifer/Bootwitch/AGENTS"
-  command: "ln -sfn /Users/jennifer/Bootwitch/AGENTS ~/.claude/skills/agents"
+  method: git
+  repository: "https://github.com/naomijnguyen/bootwitch-agents.git"
+  target: "~/.claude/skills/agents"
+  command: "git clone https://github.com/naomijnguyen/bootwitch-agents.git ~/.claude/skills/agents"
   invoke: "/agents"

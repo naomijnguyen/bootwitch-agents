@@ -27,6 +27,15 @@ git clone https://github.com/naomijnguyen/bootwitch-agents.git \
 
 Restart Codex after installation. Invoke it with `$agents` or ask Codex to coordinate a multi-agent repository session.
 
+## Install For Claude Code
+
+```bash
+git clone https://github.com/naomijnguyen/bootwitch-agents.git \
+  ~/.claude/skills/agents
+```
+
+Restart Claude Code after installation and invoke the skill with `/agents`.
+
 ## Start A Session
 
 ```bash
@@ -80,4 +89,3 @@ See [OVERVIEW.md](OVERVIEW.md) for the working method and [ARCHITECTURE.md](ARCH
 MIT. See [LICENSE](LICENSE).
 
 Created by Jennifer Naomi Nguyen with Codex collaboration.
-

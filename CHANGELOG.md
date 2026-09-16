@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.1 - 2026-09-16
+
+- Replaced a machine-specific Claude Code installation path with portable GitHub installation metadata.
+- Added Claude Code installation instructions to the public README.
+
 ## v0.1.0 - 2026-09-16
 
 - Published the initial AGENTS coordination skill.
@@ -7,4 +12,3 @@
 - Added append-only shared-note conventions and a lock-protected append helper.
 - Added a session generator for repeatable multi-agent runs.
 - Documented integration-lead authority and evidence requirements.
-
