@@ -24,24 +24,24 @@ Clone the repository into your Codex skills directory:
 
 ```bash
 git clone https://github.com/naomijnguyen/bootwitch-agents.git \
-  ~/.codex/skills/agents
+  ~/.codex/skills/bootwitch-agents
 ```
 
-Restart Codex after installation. Invoke it with `$agents` or ask Codex to coordinate a multi-agent repository session.
+Restart Codex after installation. Invoke it with `$bootwitch-agents` or ask Codex to coordinate a multi-agent repository session.
 
 ## Install For Claude Code
 
 ```bash
 git clone https://github.com/naomijnguyen/bootwitch-agents.git \
-  ~/.claude/skills/agents
+  ~/.claude/skills/bootwitch-agents
 ```
 
-Restart Claude Code after installation and invoke the skill with `/agents`.
+Restart Claude Code after installation and invoke the skill with `/bootwitch-agents`.
 
 ## Start A Session
 
 ```bash
-~/.codex/skills/agents/scripts/start_session.sh \
+~/.codex/skills/bootwitch-agents/scripts/start_session.sh \
   storage-repair \
   architect storage boundary runtime verification
 ```

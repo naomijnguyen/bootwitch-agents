@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.3.0 - 2026-09-16
+
+- Renamed the invoked skill from `agents` to `bootwitch-agents` to avoid collisions with
+  other installed skills. **Breaking:** reinstall to `~/.claude/skills/bootwitch-agents`
+  (or `~/.codex/skills/bootwitch-agents`) and invoke with `/bootwitch-agents`.
+- Updated README, Claude, and Codex installation metadata for the new name.
+
 ## v0.2.0 - 2026-09-16
 
 - Added a session overview/documentation role for every touched project.

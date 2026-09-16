@@ -6,6 +6,6 @@ interface:
 install:
   method: git
   repository: "https://github.com/naomijnguyen/bootwitch-agents.git"
-  target: "~/.claude/skills/agents"
-  command: "git clone https://github.com/naomijnguyen/bootwitch-agents.git ~/.claude/skills/agents"
-  invoke: "/agents"
+  target: "~/.claude/skills/bootwitch-agents"
+  command: "git clone https://github.com/naomijnguyen/bootwitch-agents.git ~/.claude/skills/bootwitch-agents"
+  invoke: "/bootwitch-agents"

@@ -1,5 +1,5 @@
 ---
-name: agents
+name: bootwitch-agents
 description: Coordinate multiple coding agents working on one repository through bounded assignments, architecture traces, append-only cross-agent notes, evidence-backed handoffs, and a single integration lead. Use when starting or continuing a parallel repair, migration, audit, or implementation session where agents share dependencies or a working tree.
 ---
 
