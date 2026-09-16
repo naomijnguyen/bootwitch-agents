@@ -2,8 +2,9 @@
 
 ## v0.3.0 - 2026-09-16
 
-- Added "Co-authored by Codex and Claude" to every generated session document. The
-  append-only shared-note entry template is intentionally excluded to keep the ledger clean.
+- Added "Co-authored by Codex and Claude" to the generated architecture map and
+  documentation-update documents, and to the README. Working documents (assignments,
+  notes, handoffs, status, overview) and the append-only ledger stay uncluttered.
 - Credited both Claude and Codex in the README.
 - Renamed the invoked skill from `agents` to `bootwitch-agents` to avoid collisions with
   other installed skills. **Breaking:** reinstall to `~/.claude/skills/bootwitch-agents`
