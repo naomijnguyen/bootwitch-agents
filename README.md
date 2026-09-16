@@ -91,4 +91,4 @@ See [OVERVIEW.md](OVERVIEW.md) for the working method and [ARCHITECTURE.md](ARCH
 
 MIT. See [LICENSE](LICENSE).
 
-Created by Jennifer Naomi Nguyen with Codex collaboration.
+Created by Jennifer Naomi Nguyen, built in collaboration with Claude (Anthropic) and Codex (OpenAI). The coordination method it describes was developed by working with both.
