@@ -1,0 +1,5 @@
+.DS_Store
+sessions/*
+!sessions/README.md
+*.lock
+
