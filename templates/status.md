@@ -21,8 +21,17 @@ This is the integration lead's mutable summary. It may be revised as evidence ch
 
 1. 
 
+## Documentation And Release Readiness
+
+| Project | README | Architecture and diagrams | Technical notes | Lead review | Versioned or N/A |
+|---|---|---|---|---|---|
+
+- Commit authorization:
+- Push authorization:
+- Release or tag authorization:
+- Integration lead:
+
 ## Next Wave
 
 | Agent | Assignment | Acceptance gate |
 |---|---|---|
-

@@ -13,6 +13,8 @@ The method grew out of **Bootwitch Doctor**, a five-agent repository repair expe
 - project-specific agent notes;
 - evidence-backed handoffs;
 - append-only shared notes for cross-agent messages;
+- a documentation ledger for every project touched by a session;
+- evidence-based README, architecture-diagram, and technical-note updates;
 - mutable status reports maintained by an integration lead;
 - scripts for creating sessions and safely appending shared notes.
 
@@ -44,7 +46,7 @@ Restart Claude Code after installation and invoke the skill with `/agents`.
   architect storage boundary runtime verification
 ```
 
-The generated directory contains shared architecture and status files plus separate assignment, notes, and handoff documents for each agent.
+The generated directory contains shared architecture, documentation, and status files plus separate assignment, notes, and handoff documents for each agent. The session overview agent keeps project documentation synchronized; the architecture/integration lead reviews and performs authorized versioning, commits, and pushes.
 
 ## Append A Cross-Agent Note
 
@@ -82,7 +84,8 @@ See [OVERVIEW.md](OVERVIEW.md) for the working method and [ARCHITECTURE.md](ARCH
 4. Preserve cross-agent history through append-only notes.
 5. Require success, failure, and runtime evidence.
 6. Reconcile accepted state through one integration lead.
-7. Keep shared-checkout Git operations serial.
+7. Update touched-project documentation from accepted evidence.
+8. Keep shared-checkout Git operations serial and owned by the integration lead.
 
 ## License
 

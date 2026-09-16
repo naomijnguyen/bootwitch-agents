@@ -32,6 +32,7 @@ fi
 mkdir -p "$session_dir/agents" "$session_dir/handoffs"
 cp "$root_dir/templates/session-overview.md" "$session_dir/OVERVIEW.md"
 cp "$root_dir/templates/architecture-map.md" "$session_dir/ARCHITECTURE.md"
+cp "$root_dir/templates/documentation-update.md" "$session_dir/DOCUMENTATION.md"
 cp "$root_dir/templates/status.md" "$session_dir/STATUS.md"
 cp "$root_dir/handoffs/shared_notes.md" "$session_dir/handoffs/shared_notes.md"
 
@@ -50,4 +51,3 @@ for agent in "$@"; do
 done
 
 printf '%s\n' "$session_dir"
-

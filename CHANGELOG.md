@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.2.0 - 2026-09-16
+
+- Added a session overview/documentation role for every touched project.
+- Added a generated documentation ledger to each session.
+- Required evidence-based updates to project READMEs, architecture diagrams, and technical notes.
+- Assigned reviewed versioning, commits, and pushes to the architecture/integration lead.
+- Added project follow-up notes to the architecture template.
+
 ## v0.1.1 - 2026-09-16
 
 - Replaced a machine-specific Claude Code installation path with portable GitHub installation metadata.

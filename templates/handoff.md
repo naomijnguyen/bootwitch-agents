@@ -37,6 +37,14 @@
 - Merge conflict risk:
 - Security or data-loss risk:
 
+## Documentation Impact
+
+- Projects touched:
+- README changes needed:
+- Architecture or diagram changes needed:
+- Technical-note changes needed:
+- Suggested follow-up note:
+
 ## Remaining Unknowns
 
 - Unverified behavior:
@@ -47,4 +55,3 @@
 - Forward arrow:
 - Backward arrow:
 - Node or connection color:
-

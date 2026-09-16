@@ -43,3 +43,9 @@ flowchart LR
 | Connection | Current evidence | Target behavior | Owner |
 |---|---|---|---|
 
+## Project Follow-up Notes
+
+Capture useful observations that are outside this session's acceptance gates. Keep them concise enough to triage into a future session.
+
+| Project | Follow-up | Why it matters | Evidence or source | Suggested next session | Status |
+|---|---|---|---|---|---|

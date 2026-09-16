@@ -9,6 +9,7 @@ flowchart LR
     L --> A[Architecture traces]
     O --> W[Bounded agent assignments]
     A --> W
+    O --> DOC[Session overview and documentation agent]
 
     W --> N1[Agent 1 notes]
     W --> N2[Agent 2 notes]
@@ -25,6 +26,10 @@ flowchart LR
     H --> L
     L --> V[Independent verification]
     V --> T[Mutable session status]
+    T --> DOC
+    DOC --> PD[Project README, architecture, and technical docs]
+    PD --> L
+    L --> G[Reviewed commit, version, and push]
     T --> A
     A --> W
 ```
@@ -35,11 +40,13 @@ flowchart LR
 |---|---|---|
 | `OVERVIEW.md` | Session owner or integration lead | Goal, scope, constraints, and acceptance gates |
 | `ARCHITECTURE.md` | Integration lead | Current, backward, and target traces |
+| `DOCUMENTATION.md` | Session overview agent | Touched-project inventory and documentation readiness |
 | `STATUS.md` | Integration lead | Accepted decisions and verified state |
 | `agents/*/ASSIGNMENT.md` | Integration lead | Bounded ownership and dependencies |
 | `agents/*/NOTES.md` | Assigned agent | Detailed working record and local findings |
 | `agents/*/HANDOFF.md` | Assigned agent | Evidence-backed completion report |
 | `handoffs/shared_notes.md` | All agents, append only | Cross-agent messages, dependencies, and corrections |
+| Project `README.md`, `ARCHITECTURE.md`, diagrams, and `TECHNICAL.md` | Session overview agent, reviewed by integration lead | Verified public and technical project documentation |
 
 ## Shared-note protocol
 
@@ -68,3 +75,7 @@ Color nodes and connections by evidence:
 - Amber: component works, connection or failure behavior is not proved.
 - Red: broken, missing, or contradicted by evidence.
 - Gray: outside the current repair scope or not yet inspected.
+
+## Follow-up notes
+
+Use the session architecture map's follow-up table for project ideas, technical debt, and questions that should survive the session but do not belong in its current scope. These notes are not accepted work until moved into a future session's scope and acceptance gates.

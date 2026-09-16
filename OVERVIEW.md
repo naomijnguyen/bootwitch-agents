@@ -10,6 +10,7 @@ Each session has:
 
 - one overview of the goal and acceptance criteria;
 - current, backward, and proposed architecture traces;
+- one documentation ledger covering every project touched by the session;
 - bounded assignments for each agent;
 - private working notes for each agent;
 - an append-only shared ledger for cross-agent messages;
@@ -23,11 +24,13 @@ Each session has:
 3. **Assign narrow ownership.** Give each agent a component or connection, owned files, dependencies, and acceptance tests.
 4. **Share discoveries without erasing history.** Agents append cross-agent notes and keep detailed work in their own notes.
 5. **Verify independently.** A separate reviewer proves the runtime connection and failure behavior.
-6. **Reconcile centrally.** The integration lead accepts or rejects claims, redraws the traces, and prepares the next wave.
+6. **Update project documentation.** The session overview agent brings each touched project's README, architecture diagrams, and technical notes into line with the accepted evidence.
+7. **Reconcile and version centrally.** The architecture/integration lead accepts or rejects claims, redraws the traces, reviews the final diff, and performs authorized commits and pushes serially.
 
 ## Recommended roles
 
-- **Integration architect:** owns the system map, accepted decisions, and final reconciliation.
+- **Architecture/integration lead:** owns the system map, accepted decisions, final reconciliation, and authorized serial Git operations.
+- **Session overview/documentation agent:** owns the touched-project inventory and evidence-based updates to project READMEs, architecture diagrams, and technical notes.
 - **Storage or state agent:** owns persistence contracts, migrations, and durability behavior.
 - **Boundary agent:** owns validation, service contracts, and route behavior.
 - **Runtime agent:** owns composition, lifecycle, dependency injection, and process boundaries.
@@ -50,6 +53,7 @@ AGENTS/
     └── <session-id>/
         ├── OVERVIEW.md
         ├── ARCHITECTURE.md
+        ├── DOCUMENTATION.md
         ├── STATUS.md
         ├── handoffs/shared_notes.md
         └── agents/<agent-name>/
