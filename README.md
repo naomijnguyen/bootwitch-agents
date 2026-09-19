@@ -87,8 +87,12 @@ See [OVERVIEW.md](OVERVIEW.md) for the working method and [ARCHITECTURE.md](ARCH
 7. Update touched-project documentation from accepted evidence.
 8. Keep shared-checkout Git operations serial and owned by the integration lead.
 
+## Tech stack and AI collaboration
+
+Bootwitch AGENTS is a portable Markdown skill with Bash session tooling, YAML agent metadata, filesystem-based coordination records, and install paths for Codex and Claude Code.
+
+Since 2025, I’ve been making software in active collaboration with AI coding systems across providers, and I want to do more of it. I created Bootwitch AGENTS with Claude Opus 5 from Anthropic and Codex running GPT-5.6 Sol from OpenAI. The coordination method itself grew out of working with both.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
-Created by Jennifer Naomi Nguyen, built in collaboration with Claude Opus 5 (Anthropic) and Codex, running GPT-5.6 Sol (OpenAI). The coordination method it describes was developed by working with both.
