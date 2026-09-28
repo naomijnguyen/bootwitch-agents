@@ -95,4 +95,4 @@ Since 2025, I’ve been making software in active collaboration with AI coding s
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+No new open-source or general reuse license is offered for the original work in this revision. Contact Jennifer Naomi Nguyen to discuss permission. Rights already granted under licenses for earlier versions are unaffected. Third-party components remain under their own licenses.
