@@ -93,6 +93,5 @@ Bootwitch AGENTS is a portable Markdown skill with Bash session tooling, YAML ag
 
 Since 2025, I’ve been making software in active collaboration with AI coding systems across providers, and I want to do more of it. I created Bootwitch AGENTS with Claude Opus 5 from Anthropic and Codex running GPT-5.6 Sol from OpenAI. The coordination method itself grew out of working with both.
 
-## Copyright
 
-Copyright (c) 2026 Jennifer Naomi Nguyen. All rights reserved. Third-party components remain under their own licenses.
+
